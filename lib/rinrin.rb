@@ -1,5 +1,7 @@
 require "rinrin/version"
 
 module Rinrin
-  # Your code goes here...
+	def self.hpbd(name)
+		puts "Happy birthday #{name}"
+	end
 end
